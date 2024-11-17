@@ -4,6 +4,7 @@ import { User } from "./UsersModel";
 const dbUri = 'mongodb://127.0.0.1:27017/mydatabase';
 const dbName = 'mydatabase'
 
+
 let usersCollection:Collection<User>;
 
 const client = new MongoClient(dbUri, {
